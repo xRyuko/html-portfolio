@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    text-align: center;
+    line-height: 50px;
+}
+
+.first-container{
+    background-color: #9BE8D8;
+}
+
+.third-container{
+    text-align: left;
+    font-size: 1rem;
+}
+
+.forth-container{
+    text-align: left;
+    font-size: 1rem;
+}
+
+.fifth-container{
+    text-align: left;
+    font-size: 1rem;
+}
+
+.sixth-container{
+    text-align: left;
+    font-size: 1rem;
+}
+
+.seventh-container{
+    text-align: left;
+    font-size: 1rem;
+}
+
+.eighth-container{
+    font-size: 1rem;
+    background-color: #9BE8D8;
+    margin: 0;
+    padding-top: 100px;
+    height: 300px;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    padding-top: 200px;
+    margin: 0;
+    font-size: 5rem;
+    color: #30A2FF;
+}
+
+h2{
+    font-family: 'DM Serif Text', serif;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #30A2FF;
+}
+
+h3{
+    color: #30A2FF;
+    font-family: 'DM Serif Text', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5rem;
+}
+
+.coding{
+    margin: 0;
+    padding: 0;
+    height: 600px;
+}
+
+.profile{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profile > p{
+    font-size: 1.5rem;
+}
+
+hr{
+    border: dotted #9BABB8 6px;
+    border-bottom: none;
+    width: 10%;
+    margin: 300px auto;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+    width: 50%;
+    text-align: left;
+    margin: 100px auto 0 auto;
+}
+
+.picture{
+    height: 300px;
+}
+
+.grid-container > .description > p{
+    font-size: 1rem;
+}
+
+.experience {
+    width: 60%;
+    margin: 0 auto 100px auto;
+}
+
+.certificates {
+    width: 60%;
+    margin: 0 auto 100px auto;
+}
+
+.projects {
+    width: 60%;
+    margin: 0 auto 100px auto;
+}
+
+.education{
+    width: 60%;
+    margin: 0 auto 100px auto;
+}
+
+.languages{
+    width: 60%;
+    margin: 0 auto 100px auto;
+}
+
+button {
+    background-color: #5FBDFF;
+    font-size: 20px;
+    font-family: sans-serif;
+    height: 60px;
+    width: 160px;
+    color: white;
+    border-radius: 30px;
+}
